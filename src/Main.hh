@@ -262,7 +262,7 @@ private:
         this->dmenu->display();
         std::string command = get_command();
         if (this->wrapper.length())
-            command = this->wrapper+" \""+command+"\"";
+            command = this->wrapper+" "+command;
         delete this->dmenu;
 
         if(!command.empty()) {
