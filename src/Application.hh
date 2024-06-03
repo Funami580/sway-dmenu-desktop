@@ -21,6 +21,7 @@
 #include <algorithm>
 #include <string.h>
 #include <unistd.h>
+#include <cstdint>
 
 #include "Utilities.hh"
 #include "LocaleSuffixes.hh"
